@@ -1,0 +1,42 @@
+PODS:
+  - Flutter (1.0.0)
+  - image_picker (0.0.1):
+    - Flutter
+  - imgly_sdk (2.2.0):
+    - Flutter
+    - imglyKit (~> 10.28)
+  - imglyKit (10.28.2)
+  - photo_editor_sdk (2.2.0):
+    - Flutter
+    - imgly_sdk
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - image_picker (from `.symlinks/plugins/image_picker/ios`)
+  - imgly_sdk (from `.symlinks/plugins/imgly_sdk/ios`)
+  - photo_editor_sdk (from `.symlinks/plugins/photo_editor_sdk/ios`)
+
+SPEC REPOS:
+  trunk:
+    - imglyKit
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  image_picker:
+    :path: ".symlinks/plugins/image_picker/ios"
+  imgly_sdk:
+    :path: ".symlinks/plugins/imgly_sdk/ios"
+  photo_editor_sdk:
+    :path: ".symlinks/plugins/photo_editor_sdk/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 50d75fe2f02b26cc09d224853bb45737f8b3214a
+  image_picker: e06f7a68f000bd36f552c1847e33cda96ed31f1f
+  imgly_sdk: 6cfbf5f5f6cb930894cba52eddccb4f5053f1fc1
+  imglyKit: 63be336767a71f9a57eb205dcfa6a00bbcbc2a37
+  photo_editor_sdk: e66ef35e79a7e13266469234dcd390367a08ca03
+
+PODFILE CHECKSUM: fe0e1ee7f3d1f7d00b11b474b62dd62134535aea
+
+COCOAPODS: 1.11.2
